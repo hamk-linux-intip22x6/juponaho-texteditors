@@ -1,0 +1,82 @@
+* {
+    font-family: "Lucida Console", "Courier New", sans-serif;
+}
+
+body {
+    background-color: #2d2d2d;
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    /*color: white;*/
+}
+
+.innerbody {
+    background-color: white;
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header h1 {
+    display: block;
+    text-align: center;
+    padding: 2vh 0 0;
+    margin: 0;
+}
+
+.nav-bar {
+    display: block;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    width: 5vw;
+    margin: 0.5vw;
+    padding: 0.5vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.descbox {
+    width: 40%;
+    margin: auto;
+}
+
+.imgbox {
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+    padding: 0 2vw;
+}
+
+.imgbox img {
+    max-width: 100%;
+    transform: scale(1, 1);
+    transition: transform 200ms;
+}
+
+.btn img:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.active {
+    text-decoration: underline;
+}
